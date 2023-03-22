@@ -2,13 +2,36 @@ import React from 'react'
 import {
   BsFacebook,
   BsGithub,
-  BsInstagram
+  BsInstagram,
+  BsArrowDownCircle
 } from 'react-icons/bs'
+
+
 
 const Hero = () => {
   return (
-    <section className="bg-[url('../public/assets/bg.png')] bg-cover mt-[3.5rem]">
-      <div className="container">
+      <section className="bg-cover">
+        <div className="middle-text-cont container">
+          <div className="test">
+
+            <div className="middle-text text-[14px] font-bold sm:text-[18px] text-[#050505]">
+              <button>
+                <a href="#content">Kindly bless our wedding day.</a>          
+              </button>
+            </div>
+            <div className="middle-text-2 text-[12px] font-bold lg:text-[18px] text-[#050505]">
+              <button>
+                <a href="#content"><BsArrowDownCircle size={24} className="text-[#050505] " /></a>          
+              </button>
+            </div>
+          </div>
+
+
+          
+        </div>
+
+
+      {/* <div className="container">
         <div className="flex flex-col justify-center items-center text-center p-[5rem_2rem]">
           <div className="text-[28px] font-bold lg:text-[32px] text-[#050505]">
             OHMOJI
@@ -18,8 +41,7 @@ const Hero = () => {
           </div>
           <div className="flex gap-[1.2rem] mt-[1rem]">
             <a
-              target="_blank"
-              href="https://www.facebook.com/chayutpong.chumneanpongpun/"
+              href="/about"
               className="footer_link"
               rel="noreferrer"
             >
@@ -43,7 +65,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   )
 }

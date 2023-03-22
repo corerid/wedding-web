@@ -10,10 +10,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head />
-        <body className="bg-[#E4E6EB] dark:bg-[#242526]">
-          <Providers>{children}</Providers>
-        </body>
+      {/* <head /> */}
+      <body>
+        <Providers>{children}</Providers>
+      </body>
     </html>
   )
 }
