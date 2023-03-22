@@ -3,6 +3,13 @@
 @tailwind utilities;
 /* @import url('https://fonts.googleapis.com/css2?family=Mali&display=swap'); */
 
+@font-face {
+  font-family: "Mali";
+  src: local("Mali"),
+   url("./fonts/Mali/Mali-Regular.ttf") format("truetype");
+  /* font-weight: bold; */
+}
+
 @layer base {
   html {
     scroll-behavior: smooth;
